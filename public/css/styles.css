@@ -1,0 +1,57 @@
+body {
+  background: black;
+}
+
+#content {
+  padding: 50px;
+  background: rgb(156, 156, 0);
+}
+
+a { 
+  color: white;
+}
+
+#header {
+  width: 100%;
+  background: rgb(54, 54, 0);
+  color: white;
+  padding: 25px;
+}
+
+#main-menu {
+  font-size: 20px;
+}
+
+#main-menu li {
+  list-style-type: none;
+  margin:5px 0;
+}
+#main-menu li a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 5px;
+}
+
+#main-menu li a:hover {
+  background-color: black;
+  color: yellow;
+}
+
+h1.header-title {
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+}
+
+#footer {
+  width: 100%;
+  padding: 20px;
+  background: rgb(54, 54, 0);
+  color: white;
+  padding: 20px 20px 200px 20px;
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}

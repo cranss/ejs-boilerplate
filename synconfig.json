@@ -1,0 +1,24 @@
+{ 
+  "Sources": {
+    "Youtube": {
+      "title": "Youtube Latest Videos",
+      "id": "ytv",
+      "tags": ["videos","mainstream"],
+      "Selectors": {
+        "link": "#primary #contents #details h3 a",
+        "title": "#primary #contents #details h3",
+        "image": "#primary #contents #details img"
+      }
+    },
+    "Rumble": {
+      "title": "Rumble Latest Videos",
+      "id": "rmb",
+      "tags": ["videos", "alternative"],
+      "Selectors": {
+        "link": ".main-and-sidebar .video-item--a",
+        "title": ".main-and-sidebar .video-item",
+        "image": ".main-and-sidebar .video-item img"
+      }
+    }
+  }
+}

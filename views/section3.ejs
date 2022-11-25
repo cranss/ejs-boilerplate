@@ -1,0 +1,28 @@
+<%- include('header.ejs') %>
+
+<div class="container">
+  <h2>Section 3 - Form</h2>
+  <form action="/posted" method="POST">
+    <div class="form-group mb-3">
+      <label>Name</label>
+      <input type="text" class="form-control" placeholder="Name" name="name">
+    </div>
+    <div class="form-group mb-3">
+      <label>Description</label>
+      <input type="text" class="form-control" placeholder="Description" name="desc">
+    </div>
+    <div class="form-group mb-3">
+      <label>URL</label>
+      <input type="url" class="form-control" placeholder="URL" name="url">
+    </div>
+    <label for="refresh">Selector:</label>
+    <select id="selector" name="sel">
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    <div class="d-grid mt-3">
+      <button type="submit" class="btn btn-danger">Send</button>
+    </div>
+  </form>
+</div>
+<%- include('footer.ejs') %>
