@@ -1,6 +1,7 @@
 # Logs
 logs
 *.log
+*.ini
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -126,3 +127,5 @@ dist
 .yarn/install-state.gz
 .pnp.*
 *.ini
+
+desktop.ini
